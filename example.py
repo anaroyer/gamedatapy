@@ -5,4 +5,4 @@
 # Quais jogos possuem a melhor pontuação no Metacritic versus quais jogos possuem a melhor pontuação na avaliação dos usuários?
 import csv
 from gamedatapy.data import gameInfo
-print(gameInfo.name(523070))
+print(gameInfo.basicInfo(self='', gameId=523070))
